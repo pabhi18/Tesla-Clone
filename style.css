@@ -1,0 +1,96 @@
+body, html{
+   height: 100%;
+   margin: 0px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.top{
+   font-size: 1.1em;
+   color:grey;
+}
+.header-comment{
+  text-align: center;
+}
+
+.bg{
+    display: flex;
+    flex-direction: column;
+    column-gap: 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-attachment:fixed
+ }
+.img1{
+    background-image: url(Page1.jpg);
+ }
+ .img2{
+    background-image: url(Page2.jpg);
+ }
+ .img3{
+   background-image: url(Page3.jpg);
+ }
+ .img4{
+    background-image: url(Page4.jpg);
+ }
+ .img5{
+    background-image: url(Page5.jpg);
+ }
+ .img6{
+   background-image: url(Page6.jpg);
+ }
+ .img7{
+   background-image: url(Page7.jpg);
+ }
+ .Car-Model{
+   font-size: 1.3em;
+   color: black;
+   margin-top: 3em;
+   text-align: center;
+ }
+ .Car-Model h1{
+  letter-spacing: 3px;
+   font-weight: 600;
+ }
+ a{
+   color: black;
+ }
+ .Car-Model p{
+   margin-top: 0px;
+ }
+ .header{
+  position: sticky ;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0px;
+  height: 20px;
+  padding: 0px;
+  position: fixed;
+  text-align: left;
+ }
+ .header-left{
+  padding: 0px;
+  margin: 0px;
+  size: 10px;
+ }
+ .mid{
+  text-decoration: none;
+  padding: 5px;
+ }
+ .mid:hover{
+  color: black;
+  background-color: grey ;
+  opacity: 0.6;
+ }
+ .header-mid{
+  display: flex;
+  flex-direction: row;
+  row-gap: 100px;
+  text-decoration:none;
+ }
+ .header-right{
+  display: flex;
+  flex-direction: row;
+ }
+ 
