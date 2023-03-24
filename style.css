@@ -93,4 +93,29 @@ body, html{
   display: flex;
   flex-direction: row;
  }
- 
+ .button{
+  position: relative;
+  text-align: center;
+  margin-top: 28rem;
+ }
+ .btn1{
+  font-size: 15px;
+  margin-right: 10px;
+  border-width: 0;
+  height: 2.5rem;
+  width: 16.5rem;
+  border-radius: 5px;
+  color: white;
+  background-color: rgba(23, 26, 32, 0.9);
+ }
+ .btn2{
+  font-size: 15px;
+  margin-left: 10px;
+  border-width: 0;
+  height: 2.5rem;
+  width: 16.5rem;
+  border-radius: 0;
+  border-radius: 5px;
+  color: black;
+  background-color: rgba(244, 244, 244, 0.9);
+ }
