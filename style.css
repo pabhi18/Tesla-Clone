@@ -19,6 +19,7 @@ body, html{
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
+    padding: 0px;
     background-attachment:fixed
  }
 .img1{
@@ -59,40 +60,54 @@ body, html{
    margin-top: 0px;
  }
  .header{
-  position: sticky ;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
   margin: 0px;
-  height: 20px;
   padding: 0px;
+  display: flex;
+  justify-content: space-between;
+  height: 20px;
   position: fixed;
-  text-align: left;
+  width:100%;
  }
  .header-left{
+  margin-top: 0px;
+  padding: 0px;
+  justify-content: space-between;
+  justify-content: start;
+ }
+ .header-left a{
   padding: 0px;
   margin: 0px;
-  size: 10px;
  }
- .mid{
-  text-decoration: none;
-  padding: 5px;
+  .header-mid{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
  }
- .mid:hover{
+ .header-mid li{
+  margin-left: 3rem;
+  text-decoration:none;
+  display: block;
+
+ }
+ .header-mid li a{
+  text-decoration:none;
+ }
+  .header-right{
+  display: flex;
+  flex-direction: row;
+  justify-content:end;
+  justify-content: space-between;
+ }
+ .header-right div{
+  margin-right: 1.5rem;
+ }
+ .header-mid li:hover{
   color: black;
   background-color: grey ;
   opacity: 0.6;
  }
- .header-mid{
-  display: flex;
-  flex-direction: row;
-  row-gap: 100px;
-  text-decoration:none;
- }
- .header-right{
-  display: flex;
-  flex-direction: row;
- }
+
  .button{
   position: relative;
   text-align: center;
@@ -118,4 +133,22 @@ body, html{
   border-radius: 5px;
   color: black;
   background-color: rgba(244, 244, 244, 0.9);
+ }
+ .footar{
+  align-items: baseline;
+  margin-top: 5rem;
+ }
+ .footar-items{
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+ }
+ .footar-items li{
+  color: grey;
+  font-size: 0.85rem;
+  margin-left: 1.75rem;
+  text-decoration: none;
+  display: block;
  }
