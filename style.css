@@ -3,11 +3,9 @@ body, html{
    margin: 0px;
    font-family: Arial, Helvetica, sans-serif;
 }
-.top{
-   font-size: 1.1em;
-   color:grey;
-}
 .header-comment{
+  font-size: 1.1em;
+  color:grey;
   text-align: center;
 }
 
@@ -85,10 +83,13 @@ body, html{
   
  }
  .header-mid li{
+  border-radius: 5px;
+  padding: 6px;
+  height:fit-content;
+  width: fit-content;
   margin-left: 3rem;
   text-decoration:none;
   display: block;
-
  }
  .header-mid li a{
   text-decoration:none;
@@ -103,9 +104,10 @@ body, html{
   margin-right: 1.5rem;
  }
  .header-mid li:hover{
+
   color: black;
-  background-color: grey ;
-  opacity: 0.6;
+  background-color:rgb(183, 183, 183);
+  opacity: 0.55;
  }
 
  .button{
